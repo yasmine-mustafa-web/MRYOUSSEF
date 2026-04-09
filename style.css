@@ -1,0 +1,410 @@
+/* General Settings */
+body {
+    background-image: url(https://img.freepik.com/free-vector/white-background-design-gradient-vector-modern-abstract_343694-2358.jpg?w=740);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: "Almarai", sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* Auth Buttons (Top Corner) */
+.nav-auth-btns {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-small {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.btn-small:hover {
+    background-color: transparent;
+    color: blue;
+    transform: scale(1.05);
+}
+
+/* Main Layout Wrapper */
+.main-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 50px;
+    min-height: 80vh;
+}
+
+/* Hero Text Styling */
+.hero-text-section {
+    text-align: left;
+}
+
+.main-title {
+    font-size: 60px;
+    line-height: 1.2;
+    /*margin-bottom: 30px;*/
+    font-family: "Aref Ruqaa", serif;
+}
+
+.main-title span {
+    color: blue;
+    font-family: "Aref Ruqaa", serif;   
+}
+
+.hero-btns-group {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+hr{
+    width: 50%;
+    height: 2px;
+    color:black;
+    background-color: black;
+}
+.btn-main a {
+    font-family: "Almarai", sans-serif;
+    border-radius: 10px;
+    padding: 12px 25px;
+    border: blue solid 1px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.btn-main a:hover {
+    background-color: transparent;
+    color: blue;
+    transform: scale(1.05);
+}
+/* Profile and Courses (The Column Fix) */
+.profile-box {
+    display: flex;
+    flex-direction: column; /* This stacks image and text */
+    align-items: center;    /* Centers them */
+    gap: 20px;
+}
+
+.profile-img {
+    width: 450px;
+    height: 450px;
+    border: blue solid 4px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.courses-title {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+    font-family:"Almarai", sans-serif ;
+}
+.courses-images{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.img1,.img2,.img3{
+    width: 270px;
+    height: 270px;
+}
+.courses-card{
+    width: 270px;
+    background-color:#ffffff2b;
+    border-radius: 10px;
+    padding-bottom: 33px;
+    overflow: hidden;
+    border: 1px blue solid;
+}
+.courses-card:hover{
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+.course-name h3{
+    font-family: 'Outfit', sans-serif;
+    color:blue;
+    font-size: 25px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+.course-name{
+    text-align: center;
+}
+.courses-card img{
+    display: block;
+}
+.course-discription p{
+    font-size: 16px;
+    padding: 1px 10px;
+    font-family:cursive;
+    margin-bottom: 15px;
+}
+.course-discription p span{
+    text-align: center;
+    font-family: cursive;
+    margin-left: 55px;
+
+}
+.course-discription{
+    text-align: left;
+}
+.button-area{
+    text-align: center;
+}
+.button-area button{
+    border-radius: 5px;
+    padding: 5px 7px;
+    background-color: blue;
+    border: blue 2px solid;
+    color: white;
+}
+.button-area button:hover{
+    background-color: transparent;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+    color: blue ;
+}
+.button-area2{
+    text-align: center;
+    margin-top: 10px;
+}
+.button-area2 button{
+    border-radius: 10px;
+    padding: 5px 4px;
+}
+.button-area2 button:hover{
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.text-area{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width:50px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 110px;
+}
+.text-area p{
+    color: white;
+    font-size: 13px;
+    padding: 3px 2px;
+}
+.about-youssef{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.about-youssef p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.about-youssef p b{
+    color: blue;
+    font-family: "Aref Ruqaa", serif;
+}
+.img-info{
+    display: flex;
+    gap:16px;
+
+}
+.img-info img{
+    border-radius: 50%;
+    border: blue 2px solid;
+    transition: all 0.3s ease;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    
+}
+.img-info img:hover{
+    transform: scale(1.05);
+}
+/* Navbar */
+.hero-container {
+    background-color: blue;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.hero-container ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.hero-container ul li a, .hero-container ul li {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Panels (Login and Sign Up) */
+.panel, .panel2 {
+    text-align: center;
+    margin-top: 120px; /* Space for the fixed navbar */
+    font-family: "Almarai", sans-serif;
+}
+.panel p{
+    font-size: 15px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.login1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.login{
+    font-size: 50px;
+    margin: 0;
+}
+
+/* Forms & Grid */
+.form2 {
+    margin-top: 20px;
+}
+
+.d1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px; /* Small gap for clean UI */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.d1 input, .panel2 input, .s1 {
+    width: 100%;
+    border-radius: 25px;
+    padding: 12px 15px;
+    border: solid 1px blue;
+    box-sizing: border-box; /* Critical for grid alignment */
+    font-family: "Almarai", sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Login specific input width */
+.panel2 input {
+    max-width: 350px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Dropdown styling */
+.s1 {
+    max-width: 600px;
+    margin-top: 15px;
+    height: 50px;
+    cursor: pointer;
+}
+
+/* Buttons */
+.btn5 {
+    border-radius: 10px;
+    border: blue 1px solid;
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn5:hover {
+    background-color: transparent;
+    color: blue;
+    transform: scale(1.05);
+}
+
+.divs, .divs2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+@media (max-width:600px) {
+    .courses-card{
+        width: 220px;
+        height: 480px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    .courses-images img{
+        width: 220px;
+        height: 220px;
+        object-fit: cover;
+    }
+    .profile-img{
+order: 1;
+width: 250px;
+height: 250px;
+    }
+    .hero-text-section{
+order: 2;
+    }
+    .main-title{
+        font-size: 40px;
+    }
+.main-wrapper{
+    flex-direction: column;
+    display: flex;
+}
+.btn-main {
+    white-space: nowrap;
+}
+.btn-main a{
+    padding: 8px 10px;
+    font-size: 13px;
+}
+.hero-btns-group{
+display: flex;
+}
+.text-area {
+    margin: auto;
+}
+.img-info{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.img-info img{
+    width: 90px;
+    height: 90px;
+}
+.info-name h1{
+    font-size: 25px;
+}
+.about-youssef p{
+    font-size: 15px;
+}
+}
