@@ -15,3 +15,7 @@
  Small brief about my tutor.
 
  I am working on the responsivity tho.
+
+
+# tech stack:
+front-end:HTML and CSS only.
