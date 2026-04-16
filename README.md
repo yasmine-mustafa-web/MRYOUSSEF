@@ -2,11 +2,11 @@
 
  It is a website for my fav tutor in my school.
 
- It is just a static website doesn't include backend yet but in progress
+ It is just a static website doesn't include backend yet but in progress.
 
- Feautres:
+# Feautres:
 
- It includes a photo for my tutor.
+ It includes a picture for my tutor.
 
  Includes sign and login buttons.
 
@@ -14,4 +14,4 @@
 
  Small brief about my tutor.
 
- I am working on the responsivity.
+ I am working on the responsivity tho.
